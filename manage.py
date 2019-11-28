@@ -1,4 +1,4 @@
-from eeazycrm import create_app, db
+from crm import create_app, db
 from flask_migrate import Migrate, MigrateCommand
 from flask_script import Manager
 
