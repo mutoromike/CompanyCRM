@@ -1,5 +1,5 @@
 from datetime import datetime
-from eeazycrm import db
+from crm import db
 
 
 class DealStage(db.Model):

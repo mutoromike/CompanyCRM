@@ -4,15 +4,15 @@ from flask import render_template, flash, url_for, redirect, request
 from sqlalchemy import or_
 import json
 
-from eeazycrm import db
+from crm import db
 from .models import Deal, DealStage
-from eeazycrm.common.paginate import Paginate
-from eeazycrm.common.filters import CommonFilters
-from eeazycrm.accounts.models import Account
+from crm.common.paginate import Paginate
+from crm.common.filters import CommonFilters
+from crm.accounts.models import Account
 from .forms import NewDeal, FilterDeals
 from .filters import set_date_filters, set_price_filters, set_deal_stage_filters
 
-from eeazycrm.rbac import check_access
+from crm.rbac import check_access
 
 deals = Blueprint('deals', __name__)
 

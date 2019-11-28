@@ -1,5 +1,5 @@
 from datetime import datetime
-from eeazycrm import db
+from crm import db
 from flask_login import current_user
 
 

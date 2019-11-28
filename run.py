@@ -1,4 +1,4 @@
-from eeazycrm import create_app
+from crm import create_app
 
 app = create_app()
 

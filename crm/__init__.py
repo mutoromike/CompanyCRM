@@ -30,15 +30,15 @@ def create_app(config_class=Config):
     login_manager.init_app(app)
 
     # include the routes
-    # from eeazycrm import routes
-    from eeazycrm.main.routes import main
-    from eeazycrm.users.routes import users
-    from eeazycrm.leads.routes import leads
-    from eeazycrm.accounts.routes import accounts
-    from eeazycrm.contacts.routes import contacts
-    from eeazycrm.deals.routes import deals
-    from eeazycrm.settings.routes import settings
-    from eeazycrm.reports.routes import reports
+    # from crm import routes
+    from crm.main.routes import main
+    from crm.users.routes import users
+    from crm.leads.routes import leads
+    from crm.accounts.routes import accounts
+    from crm.contacts.routes import contacts
+    from crm.deals.routes import deals
+    from crm.settings.routes import settings
+    from crm.reports.routes import reports
 
     # register routes with blueprint
     app.register_blueprint(main)

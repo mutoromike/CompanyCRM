@@ -3,12 +3,12 @@ from flask_login import current_user, login_required
 from flask import render_template, flash, url_for, redirect, request
 from sqlalchemy.exc import IntegrityError
 
-from eeazycrm.users.forms import UpdateProfile, UpdateRoleForm, NewRoleForm, UpdateUser, ResourceForm
-from eeazycrm.users.utils import upload_avatar
-from eeazycrm.users.models import User, Role, Resource
+from crm.users.forms import UpdateProfile, UpdateRoleForm, NewRoleForm, UpdateUser, ResourceForm
+from crm.users.utils import upload_avatar
+from crm.users.models import User, Role, Resource
 
-from eeazycrm import db, bcrypt
-from eeazycrm.rbac import check_access, is_admin
+from crm import db, bcrypt
+from crm.rbac import check_access, is_admin
 
 settings = Blueprint('settings', __name__)
 

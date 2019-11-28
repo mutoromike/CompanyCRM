@@ -1,9 +1,9 @@
 from flask import request, session
 from flask_login import current_user
 from sqlalchemy import text
-from eeazycrm.users.models import User
-from eeazycrm.accounts.models import Account
-from eeazycrm.contacts.models import Contact
+from crm.users.models import User
+from crm.accounts.models import Account
+from crm.contacts.models import Contact
 
 
 class CommonFilters:

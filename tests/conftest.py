@@ -1,5 +1,5 @@
 import pytest
-from eeazycrm import create_app
+from crm import create_app
 from tests.actions.auth import AuthActions
 from tests.actions.accounts import AccountActions
 

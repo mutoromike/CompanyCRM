@@ -1,5 +1,5 @@
 from flask import render_template, flash, url_for, redirect, Blueprint
-from eeazycrm import db
+from crm import db
 from flask_login import login_required
 
 main = Blueprint('main', __name__)
