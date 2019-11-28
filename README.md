@@ -1,4 +1,4 @@
-# EeazyCRM
+# Company CRM
 
 #### Python based open source CRM developed using Flask framework
 
