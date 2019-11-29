@@ -4,5 +4,5 @@
 
 ##### It's still WORK IN PROGRESS
 ##### But I have a small DEMO image below
-![alt text](https://i.ibb.co/BsWm9Kf/eeazycrm-demo1.gif)
+![alt text](https://i.ibb.co/BsWm9Kf/Companycrm-demo1.gif)
 

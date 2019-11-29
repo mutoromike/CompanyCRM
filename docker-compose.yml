@@ -11,7 +11,7 @@ services:
     command: python run.py
     volumes:
       - .:/app
-    image: jsingh/eeazycrm
+    image: jsingh/Companycrm
     ports:
       - "5000:5000"
     depends_on:
